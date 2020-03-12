@@ -3,11 +3,8 @@
 int main() {
 
 
-   int déjajoué;
-   int jamaisjoué;
-   int adressemail;
-   int age;
-   int motdepasse;
+   int connexion;
+   int inscription;
    int pseudo;
    int prénom;
 
@@ -16,15 +13,10 @@ int main() {
     printf("Bataille Navale");
 
 
-    if (jamaisjoué)
+    if (inscription)
 
     {
 
-        printf("Entrez votre adresse mail \n");
-        scanf(" %d, &adressemail");
-
-        printf("Entrez votre mot de paase \n");
-        scanf(" %d, &motdepasse");
 
         printf("Entrez votre pseudo \n");
         scanf(" %d, &pseudo");
@@ -35,10 +27,47 @@ int main() {
         printf("Entrez votre nom \n "),
         scanf(" %d, &nom");
 
-        printf("Entrez votre age \n");
-        scanf(" %d, &age");
+        int existedeja;
+
+
+        if (existedeja);
+        {
+
+            printf(" Voulez-vous le reprendre ?");
+
+            int reprendrecompte;
+
+            if (reprendrecompte)
+            {
+
+                if
+            }
+
+
+        }
+
+
 
     }
+
+    else if (connexion)
+
+    {
+
+        printf("Veuillez entrer votre pseudo");
+        scanf(" %d", &pseudo);
+
+        if (existedeja);
+        {
+
+            printf(" 1. connexion");
+            printf(" 2. Créer un autre pseudo");
+
+        }
+
+
+    }
+
 }
 
 
